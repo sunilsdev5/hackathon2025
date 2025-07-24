@@ -3,7 +3,7 @@ import express from 'express';
 const app = express();
 
 app.get('/', (req, res) => {
-  const name = process.env.NAME || 'Team';
+  const name = process.env.NAME || 'Hackathon';
   res.send(`Hello ${name}!`);
 });
 
